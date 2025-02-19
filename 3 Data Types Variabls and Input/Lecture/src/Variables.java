@@ -33,6 +33,13 @@ public class Variables {
 
         System.out.println(wishes);
 
+        // char
+
+        char myCharacter = 'K';
+
+        System.out.println(myCharacter);
+
+
         // boolean
 
         boolean isVegetarian = false;
