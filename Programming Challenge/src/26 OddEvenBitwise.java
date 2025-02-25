@@ -16,8 +16,5 @@ class OddEvenBitwise {
         } else {
             System.out.println("Your number is Even");
         }
-
-
-
     }
 }
