@@ -19,14 +19,14 @@ class ReverseTheDigit {
 
     public static int reverse(int num) {
 
-        int newNum = 0;
+        int rev = 0;
 
         while(num > 0) {
             int digit = num % 10 ;
-            newNum = newNum * 10 + digit;
+            rev = rev * 10 + digit;
             num = num/10;
         }
 
-        return newNum;
+        return rev;
     }
 }
